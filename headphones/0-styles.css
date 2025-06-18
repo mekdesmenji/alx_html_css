@@ -32,6 +32,14 @@ body {
   display: grid;
   justify-items: center;
   color: white;
+  padding-top: 280px;
+  gap: 65px;
+}
+
+.below-top-bar2 {
+  display: grid;
+  justify-items: center;
+  gap: 40px;
 }
 
 #btn-action {
@@ -43,4 +51,24 @@ body {
   height: 44px;
   font-size: 14px;
   font-weight: bold;
+}
+
+#big-p {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#big2-p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#big3-p {
+  font-size: 16px;
+}
+
+.twoP {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
 }
