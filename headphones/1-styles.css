@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+#do1 {
+  font-size: 32px;
+}
+
+#do2 {
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.what-text {
+  color: #071629;
+  display: grid;
+  gap: 41px;
+  justify-items: center;
+  padding-top: 110px;
+}
+.first-do {
+  display: grid;
+  justify-items: center;
+  gap: 63px;
+  padding-top: 110px;
+}
+
+#do3 {
+  font-size: 14px;
+  text-align: center;
+  color: #071629;
+}
+
+#first-img {
+  width: 94px;
+  height: 65px;
+}
+.first-do-all {
+  display: flex;
+  gap: 58px;
+  justify-content: center;
+}

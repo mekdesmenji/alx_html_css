@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#us {
+  font-size: 32px;
+}
+
+#name {
+  font-size: 14px;
+}
+
+#line {
+  width: 335px;
+  border: 1px solid #979797;
+}
+.input {
+  display: grid;
+  gap: 11px;
+}
+
+.inputs {
+  display: grid;
+  gap: 45px;
+}
+
+.contact {
+  display: grid;
+  justify-items: center;
+  gap: 56px;
+  padding-top: 110px;
+}
+
+#btn-action {
+  background-color: #ff6565;
+  border-radius: 22px;
+  color: white;
+  border: none;
+  width: 162px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: bold;
+}

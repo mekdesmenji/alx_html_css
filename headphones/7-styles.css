@@ -21,6 +21,21 @@ body {
   color: white;
 }
 
+#todo:hover {
+  cursor: pointer;
+  color: #ff6565;
+}
+
+#resultP:hover {
+  cursor: pointer;
+  color: #ff6565;
+}
+
+#contactP:hover {
+  cursor: pointer;
+  color: #ff6565;
+}
+
 .top-bar {
   display: flex;
   gap: 584px;
@@ -51,6 +66,10 @@ body {
   height: 44px;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
+}
+#btn-action:hover {
+  background-color: rgba(255, 101, 101, 0.9);
 }
 
 #big-p {

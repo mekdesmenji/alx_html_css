@@ -1,0 +1,13 @@
+.pentagon {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.pent-flex {
+  display: flex;
+  gap: 76px;
+  padding-top: 110px;
+  justify-content: center;
+}
