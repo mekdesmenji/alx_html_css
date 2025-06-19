@@ -73,3 +73,21 @@ body {
   margin: 0;
   white-space: nowrap;
 }
+
+@media (max-width: 480px) {
+  .resul-out {
+    display: grid;
+    gap: 76px;
+    justify-content: center;
+    padding-top: 56px;
+  }
+  #our-text {
+    font-size: 32px;
+    text-align: center;
+  }
+  #bg-img {
+    background-image: url("images/background.png");
+    height: auto;
+    width: 100%;
+  }
+}

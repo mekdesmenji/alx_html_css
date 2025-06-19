@@ -32,9 +32,31 @@ body {
   gap: 710px;
   justify-content: center;
 }
+
 #copyright {
   color: white;
   font-size: 12px;
   text-align: center;
   padding-top: 72px;
+}
+
+@media (max-width: 480px) {
+  .flex-foot {
+    display: grid;
+    gap: 45px;
+    justify-items: center;
+  }
+  .footer {
+    background-color: #071629;
+    width: 100%;
+    height: auto;
+    padding-top: 92px;
+    padding-bottom: 45px;
+  }
+  #copyright {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 45px;
+  }
 }

@@ -26,8 +26,7 @@ body {
 .first-do {
   display: grid;
   justify-items: center;
-  gap: 63px;
-  padding-top: 110px;
+  gap: 24px;
 }
 
 #do3 {
@@ -44,4 +43,14 @@ body {
   display: flex;
   gap: 58px;
   justify-content: center;
+  padding-top: 110px;
+}
+
+@media (max-width: 480px) {
+  .first-do-all {
+    display: grid;
+    gap: 96px;
+    justify-content: center;
+    padding-top: 110px;
+  }
 }
